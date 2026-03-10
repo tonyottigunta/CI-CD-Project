@@ -11,7 +11,7 @@ stages {
 ```
 stage('Checkout') {
   steps {
-    git 'https://github.com/yourrepo/demo-app.git'
+    git 'https://github.com/tonyottigunta/CI-CD-Project.git'
   }
 }
 
