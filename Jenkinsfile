@@ -6,6 +6,10 @@ DOCKER_USER = "tonyor05"
 IMAGE_NAME = "cicd-demo"
 }
 
+  triggers {
+    githubPush()
+  }
+
 stages {
 
 ```
