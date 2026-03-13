@@ -52,7 +52,7 @@ pipeline {
     stage('Verify') {
       steps {
         sh 'sleep 3'
-        sh 'curl -f http://localhost:3000 || echo "App not responding"'
+        sh 'curl -f http://16.112.128.250:3000 || echo "App not responding"'
       }
     }
 
